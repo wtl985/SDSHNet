@@ -10,10 +10,11 @@ if __name__ == '__main__':
     #model.load('SDSHNet.pt')
     model.train(data=r'/SDSHNet/jiazawu.yaml',
                 imgsz=640,
-                epochs=1,
-                batch=4,
+                epochs=500,
+                batch=16,
                 project='runs/train',
                 name='exp',
                 workers=0,
                 amp=False
                 )
+
