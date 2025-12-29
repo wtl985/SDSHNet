@@ -1,7 +1,8 @@
-train: '/SDSHNet/data/train'
-val: '/SDSHNet/data/val'
-test: '/SDSHNet/data/test'
+train: 'SDSHNet/data/train'
+val: 'SDSHNet/data/val'
+test: 'SDSHNet/data/test'
 
 nc: 6
 names: ['refractory material', 'titanium diboride', 'oxide film', 'nitride', 'spinel', 'magnesium oxide']
+
 
