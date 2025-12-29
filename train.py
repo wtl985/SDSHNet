@@ -6,9 +6,9 @@ from SDSHNet import RTDETR
 
 if __name__ == '__main__':
 
-    model = RTDETR(model=r'/SDSHNet/cfg/models/SDSHNet.yaml')
+    model = RTDETR(model=r'SDSHNet/cfg/models/SDSHNet.yaml')
     #model.load('SDSHNet.pt')
-    model.train(data=r'/SDSHNet/jiazawu.yaml',
+    model.train(data=r'SDSHNet/jiazawu.yaml',
                 imgsz=640,
                 epochs=500,
                 batch=16,
@@ -17,4 +17,5 @@ if __name__ == '__main__':
                 workers=0,
                 amp=False
                 )
+
 
